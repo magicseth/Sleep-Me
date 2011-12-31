@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64048DDE14AFA46100FB2A70 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64048DDD14AFA46100FB2A70 /* Cocoa.framework */; };
+		64048DE814AFA46100FB2A70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64048DE614AFA46100FB2A70 /* InfoPlist.strings */; };
+		64048DEA14AFA46100FB2A70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64048DE914AFA46100FB2A70 /* main.m */; };
+		64048DEE14AFA46100FB2A70 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 64048DEC14AFA46100FB2A70 /* Credits.rtf */; };
+		64048DF114AFA46100FB2A70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64048DF014AFA46100FB2A70 /* AppDelegate.m */; };
+		64048DF414AFA46100FB2A70 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64048DF214AFA46100FB2A70 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64048DD914AFA46100FB2A70 /* sleepme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sleepme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64048DDD14AFA46100FB2A70 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		64048DE014AFA46100FB2A70 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		64048DE114AFA46100FB2A70 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		64048DE214AFA46100FB2A70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64048DE514AFA46100FB2A70 /* sleepme-Info.plist */ = {isa = PBXFileReference; path = "sleepme-Info.plist"; sourceTree = "<group>"; };
+		64048DE714AFA46100FB2A70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64048DE914AFA46100FB2A70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64048DEB14AFA46100FB2A70 /* sleepme-Prefix.pch */ = {isa = PBXFileReference; path = "sleepme-Prefix.pch"; sourceTree = "<group>"; };
+		64048DED14AFA46100FB2A70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		64048DEF14AFA46100FB2A70 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		64048DF014AFA46100FB2A70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64048DF314AFA46100FB2A70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64048DD614AFA46100FB2A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64048DDE14AFA46100FB2A70 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64048DCE14AFA46100FB2A70 = {
+			isa = PBXGroup;
+			children = (
+				64048DE314AFA46100FB2A70 /* sleepme */,
+				64048DDC14AFA46100FB2A70 /* Frameworks */,
+				64048DDA14AFA46100FB2A70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64048DDA14AFA46100FB2A70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64048DD914AFA46100FB2A70 /* sleepme.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64048DDC14AFA46100FB2A70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64048DDD14AFA46100FB2A70 /* Cocoa.framework */,
+				64048DDF14AFA46100FB2A70 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64048DDF14AFA46100FB2A70 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64048DE014AFA46100FB2A70 /* AppKit.framework */,
+				64048DE114AFA46100FB2A70 /* CoreData.framework */,
+				64048DE214AFA46100FB2A70 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		64048DE314AFA46100FB2A70 /* sleepme */ = {
+			isa = PBXGroup;
+			children = (
+				64048DEF14AFA46100FB2A70 /* AppDelegate.h */,
+				64048DF014AFA46100FB2A70 /* AppDelegate.m */,
+				64048DF214AFA46100FB2A70 /* MainMenu.xib */,
+				64048DE414AFA46100FB2A70 /* Supporting Files */,
+			);
+			path = sleepme;
+			sourceTree = "<group>";
+		};
+		64048DE414AFA46100FB2A70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64048DE514AFA46100FB2A70 /* sleepme-Info.plist */,
+				64048DE614AFA46100FB2A70 /* InfoPlist.strings */,
+				64048DE914AFA46100FB2A70 /* main.m */,
+				64048DEB14AFA46100FB2A70 /* sleepme-Prefix.pch */,
+				64048DEC14AFA46100FB2A70 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64048DD814AFA46100FB2A70 /* sleepme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64048DF714AFA46100FB2A70 /* Build configuration list for PBXNativeTarget "sleepme" */;
+			buildPhases = (
+				64048DD514AFA46100FB2A70 /* Sources */,
+				64048DD614AFA46100FB2A70 /* Frameworks */,
+				64048DD714AFA46100FB2A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sleepme;
+			productName = sleepme;
+			productReference = 64048DD914AFA46100FB2A70 /* sleepme.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64048DD014AFA46100FB2A70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Bump Technologies";
+			};
+			buildConfigurationList = 64048DD314AFA46100FB2A70 /* Build configuration list for PBXProject "sleepme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64048DCE14AFA46100FB2A70;
+			productRefGroup = 64048DDA14AFA46100FB2A70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64048DD814AFA46100FB2A70 /* sleepme */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64048DD714AFA46100FB2A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64048DE814AFA46100FB2A70 /* InfoPlist.strings in Resources */,
+				64048DEE14AFA46100FB2A70 /* Credits.rtf in Resources */,
+				64048DF414AFA46100FB2A70 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64048DD514AFA46100FB2A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64048DEA14AFA46100FB2A70 /* main.m in Sources */,
+				64048DF114AFA46100FB2A70 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64048DE614AFA46100FB2A70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64048DE714AFA46100FB2A70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64048DEC14AFA46100FB2A70 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64048DED14AFA46100FB2A70 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		64048DF214AFA46100FB2A70 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64048DF314AFA46100FB2A70 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64048DF514AFA46100FB2A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		64048DF614AFA46100FB2A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		64048DF814AFA46100FB2A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sleepme/sleepme-Prefix.pch";
+				INFOPLIST_FILE = "sleepme/sleepme-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64048DF914AFA46100FB2A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sleepme/sleepme-Prefix.pch";
+				INFOPLIST_FILE = "sleepme/sleepme-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64048DD314AFA46100FB2A70 /* Build configuration list for PBXProject "sleepme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64048DF514AFA46100FB2A70 /* Debug */,
+				64048DF614AFA46100FB2A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64048DF714AFA46100FB2A70 /* Build configuration list for PBXNativeTarget "sleepme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64048DF814AFA46100FB2A70 /* Debug */,
+				64048DF914AFA46100FB2A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64048DD014AFA46100FB2A70 /* Project object */;
+}
