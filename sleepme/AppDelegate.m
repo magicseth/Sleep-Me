@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import <IOKit/ps/IOPowerSources.h>
+#include <IOKit/pwr_mgt/IOPMLib.h>
 #import <notify.h>
 
 @implementation AppDelegate
@@ -21,7 +22,24 @@
 
 - (void) sleep;
 {
-    system("pmset sleepnow");
+    
+    mach_port_t master;
+    io_connect_t pmcon;
+    
+    if (IOMasterPort(bootstrap_port, &master) != kIOReturnSuccess) {
+        perror("IOMasterPort() failed");
+    }
+    
+    pmcon = IOPMFindPowerManagement(master);
+    if (pmcon == 0) {
+        fprintf(stderr, "IOPMFindPowerManagement() failed!\n");
+    }
+    
+    if (IOPMSleepSystem(pmcon) != kIOReturnSuccess) {
+        perror("IOPMSleepSystem() failed");
+    }
+
+//    system("pmset sleepnow");
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
