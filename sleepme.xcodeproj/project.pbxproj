@@ -13,6 +13,7 @@
 		64048DEE14AFA46100FB2A70 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 64048DEC14AFA46100FB2A70 /* Credits.rtf */; };
 		64048DF114AFA46100FB2A70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64048DF014AFA46100FB2A70 /* AppDelegate.m */; };
 		64048DF414AFA46100FB2A70 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64048DF214AFA46100FB2A70 /* MainMenu.xib */; };
+		64048DFF14AFAC1900FB2A70 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64048DFE14AFAC1900FB2A70 /* IOKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,15 @@
 		64048DE014AFA46100FB2A70 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		64048DE114AFA46100FB2A70 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		64048DE214AFA46100FB2A70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		64048DE514AFA46100FB2A70 /* sleepme-Info.plist */ = {isa = PBXFileReference; path = "sleepme-Info.plist"; sourceTree = "<group>"; };
+		64048DE514AFA46100FB2A70 /* sleepme-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sleepme-Info.plist"; sourceTree = "<group>"; };
 		64048DE714AFA46100FB2A70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		64048DE914AFA46100FB2A70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		64048DEB14AFA46100FB2A70 /* sleepme-Prefix.pch */ = {isa = PBXFileReference; path = "sleepme-Prefix.pch"; sourceTree = "<group>"; };
+		64048DEB14AFA46100FB2A70 /* sleepme-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sleepme-Prefix.pch"; sourceTree = "<group>"; };
 		64048DED14AFA46100FB2A70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		64048DEF14AFA46100FB2A70 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		64048DEF14AFA46100FB2A70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64048DF014AFA46100FB2A70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		64048DF314AFA46100FB2A70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		64048DFE14AFAC1900FB2A70 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64048DFF14AFAC1900FB2A70 /* IOKit.framework in Frameworks */,
 				64048DDE14AFA46100FB2A70 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +49,7 @@
 		64048DCE14AFA46100FB2A70 = {
 			isa = PBXGroup;
 			children = (
+				64048DFE14AFAC1900FB2A70 /* IOKit.framework */,
 				64048DE314AFA46100FB2A70 /* sleepme */,
 				64048DDC14AFA46100FB2A70 /* Frameworks */,
 				64048DDA14AFA46100FB2A70 /* Products */,
@@ -287,6 +291,7 @@
 				64048DF914AFA46100FB2A70 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
