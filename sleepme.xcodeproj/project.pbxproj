@@ -14,6 +14,7 @@
 		64048DF114AFA46100FB2A70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64048DF014AFA46100FB2A70 /* AppDelegate.m */; };
 		64048DF414AFA46100FB2A70 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64048DF214AFA46100FB2A70 /* MainMenu.xib */; };
 		64048DFF14AFAC1900FB2A70 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64048DFE14AFAC1900FB2A70 /* IOKit.framework */; };
+		64048E2A14B2E0F400FB2A70 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 64048E2914B2E0F400FB2A70 /* Icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		64048DF014AFA46100FB2A70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		64048DF314AFA46100FB2A70 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		64048DFE14AFAC1900FB2A70 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		64048E2814B2DF9800FB2A70 /* sleepme.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = sleepme.entitlements; sourceTree = "<group>"; };
+		64048E2914B2E0F400FB2A70 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +52,7 @@
 		64048DCE14AFA46100FB2A70 = {
 			isa = PBXGroup;
 			children = (
+				64048E2914B2E0F400FB2A70 /* Icon.icns */,
 				64048DFE14AFAC1900FB2A70 /* IOKit.framework */,
 				64048DE314AFA46100FB2A70 /* sleepme */,
 				64048DDC14AFA46100FB2A70 /* Frameworks */,
@@ -86,6 +90,7 @@
 		64048DE314AFA46100FB2A70 /* sleepme */ = {
 			isa = PBXGroup;
 			children = (
+				64048E2814B2DF9800FB2A70 /* sleepme.entitlements */,
 				64048DEF14AFA46100FB2A70 /* AppDelegate.h */,
 				64048DF014AFA46100FB2A70 /* AppDelegate.m */,
 				64048DF214AFA46100FB2A70 /* MainMenu.xib */,
@@ -160,6 +165,7 @@
 				64048DE814AFA46100FB2A70 /* InfoPlist.strings in Resources */,
 				64048DEE14AFA46100FB2A70 /* Credits.rtf in Resources */,
 				64048DF414AFA46100FB2A70 /* MainMenu.xib in Resources */,
+				64048E2A14B2E0F400FB2A70 /* Icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +259,7 @@
 		64048DF814AFA46100FB2A70 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sleepme/sleepme-Prefix.pch";
 				INFOPLIST_FILE = "sleepme/sleepme-Info.plist";
@@ -264,6 +271,7 @@
 		64048DF914AFA46100FB2A70 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "sleepme/sleepme-Prefix.pch";
 				INFOPLIST_FILE = "sleepme/sleepme-Info.plist";
