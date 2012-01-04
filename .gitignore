@@ -1,0 +1,27 @@
+# xcode noise
+build/*
+core/build/*
+core/gen_protos/*
+*.pbxuser
+*.mode1v3
+*.perspectivev3
+*.xcuserdatad
+*.xcsettings
+*.xcworkspacedata
+
+
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+profile
+
+#protobuf noise
+*.pb.h
+*.pb.m
+
+#ignore other build folders
+demo_projects/*/build/*
+bp_build_info.plist
+cleanup
